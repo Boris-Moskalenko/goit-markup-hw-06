@@ -31,7 +31,6 @@ color: #F4F4FD;
 .footer-soc-list {
     display: flex;
     gap: 16px;
-    /* padding-top: 16px; */
 }
 .footer-soc-link {
     display: flex;
