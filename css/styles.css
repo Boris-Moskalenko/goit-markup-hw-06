@@ -91,7 +91,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2E2F42;
 }
 
 .header-logo {
@@ -100,7 +100,7 @@ button {
 }
 
 .header-logo .accent {
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .burger-btn {
@@ -782,7 +782,14 @@ button {
 }
 .footer-container {
     padding: 0 15px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.footer-soc-media {
+    margin-left: 120px;
+}
+.footer-subscribe {
+    margin-left: auto;
 }
 }
 
@@ -871,6 +878,9 @@ button {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mobile-menu-item .current {
+    color: #404bbf;
+}
 .mobile-menu-contacts {
     margin-top: 168px;
 }
@@ -881,11 +891,11 @@ button {
     gap: 24px;
 }
 
-.address-list-item .accent {
+.mobile-address-item .accent {
     color: #4d5ae5;
 }
 
-.address-list-link {
+.mobile-address-email {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
@@ -893,6 +903,17 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-address-phone {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
+    
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -923,9 +944,7 @@ button {
 }
 
 .mobile-menu-link:hover,
-.mobile-menu-link:hover,
-.address-list-link:hover,
-.address-list-link:focus {
+.mobile-menu-link:focus {
     color: #404bbf;
 }
 
